@@ -1,3 +1,4 @@
+
 # Actividad-4---Streamlit
 Sistema de control de iluminación basado en gestos  de la mano
 # Gestos a luz
@@ -79,8 +80,6 @@ GPIO 26 -> resistencia -> LED 2 -> GND
 GPIO 27 -> resistencia -> LED 3 -> GND
 ```
 
-No conectes una lámpara de potencia directamente a un GPIO. Para cargas mayores se necesita una etapa de potencia con transistor o MOSFET.
-
 ## Firmware
 
 El firmware se compila con PlatformIO:
@@ -93,16 +92,4 @@ El firmware se compila con PlatformIO:
 6. Ejecuta **PlatformIO: Upload**.
 7. En Streamlit selecciona el puerto COM y pulsa **Conectar ESP32**.
 
-## Archivos que se publican
-
-La carpeta preparada para subir es `Gestos-a-luz-GitHub`.
-
-Debe contener:
-
-```text
-.gitignore
-4) Streamlit/
-13) Reconocimiento_Gestos/
-```
-
-No se publican `.venv`, el modelo `.task` ni la carpeta `.pio`, porque son archivos generados localmente. El modelo se descarga automáticamente al iniciar la aplicación por primera vez.
+Funcionamiento: https://youtu.be/IpzNvbCflYA 
